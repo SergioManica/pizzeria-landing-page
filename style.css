@@ -86,6 +86,11 @@ html {
   align-items: center;
 }
 
+.img-cozinha{
+  max-width:100%;
+  object-fit: cover;
+}
+
 .first-section .conteudo-principal {
   display: flex;
   flex-direction: column;
@@ -336,11 +341,20 @@ footer {
   html {
     font-size: 50%;
   }
+
+  .first-section h1{
+    font-size: 5rem;
+  }
 }
 
 @media (max-width: 768px) {
   html {
     font-size: 45%;
+  }
+
+  .first-section h1{
+    text-align: center;
+    font-size: 5rem;
   }
 
   .content {
@@ -442,6 +456,15 @@ footer {
     width: 500px;
     text-align: center;
     font-size: 4rem;
+  }
+
+  .btn{
+    width: 70vw;
+  }
+
+  .btn button{
+    width: 100%;
+    margin-right: 10px;
   }
 
   .conteudo-principal h2 {
